@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration
-public class JmockitApplicationTest
+public class ApplicationWithProxyBeanFactoryTest
 {
     @Autowired
     JmockitApplication application;
